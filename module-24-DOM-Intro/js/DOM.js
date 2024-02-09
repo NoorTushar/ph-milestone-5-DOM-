@@ -20,6 +20,13 @@ programTitle.style.color = "red";
 programTitle.style.backgroundColor = "yellow";
 
 console.log(programTitle.getAttribute("id"));
+programTitle.classList.add("dynamic-1");
+
+console.log(programTitle.classList);
+
+programTitle.classList.remove("some-class");
+
+console.log(programTitle.classList);
 
 /**********************
  * getElementsByClassName
