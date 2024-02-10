@@ -8,14 +8,7 @@ for (const iterator of sections) {
 
 /**
  ********* Node List
-
  * Every HTML element is a Node in DOM.
- * Some important and regularly used properties of Nodes are:
- * 1. Node.firstChild
- * 2. Node.childNodes
- * 3. 
-
-
  */
 
 const languageContainer = document.getElementById("language-container");
