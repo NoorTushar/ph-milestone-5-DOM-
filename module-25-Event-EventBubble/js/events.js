@@ -17,3 +17,11 @@ function makePink() {
 }
 
 pinkBtn.addEventListener("click", makePink);
+
+document.querySelector("#e").addEventListener("click", (e) => {
+   console.log(e);
+});
+
+document.getElementById("in").addEventListener("keyup", (e) => {
+   console.log(e.target.value);
+});
