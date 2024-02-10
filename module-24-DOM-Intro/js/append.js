@@ -46,4 +46,13 @@ myUL2.appendChild(myLi5);
 
 const sectionDress = document.createElement("section");
 
-sectionDress.
+sectionDress.innerHTML = `
+<h1>My Dress Section</h1>
+<ul>
+    <li>T-Shirt</li>
+    <li>Lungi</li>
+    <li>Sando Genji</li>
+</ul>
+`;
+
+mainContainer.appendChild(sectionDress);
